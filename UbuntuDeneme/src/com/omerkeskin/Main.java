@@ -1,12 +1,13 @@
 package com.omerkeskin;
 
+import main.ModelDuck;
+
 public class Main {
 
 	public static void main(String[] args) {
-
-		System.out.println("Hello world from Ubuntu.");
 		
-		
+		 ModelDuck md = new ModelDuck();
+		 md.display();
 
 	}
 
